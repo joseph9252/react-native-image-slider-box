@@ -144,7 +144,7 @@ export class SliderBox extends Component {
         dotStyle={dotStyle || styles.dotStyle}
         dotColor={dotColor || colors.dotColors}
         inactiveDotColor={inactiveDotColor || colors.white}
-        inactiveDotScale={0.8}
+        inactiveDotScale={1}
         carouselRef={this._ref}
         inactiveDotOpacity={0.8}
         tappableDots={!!this._ref}
